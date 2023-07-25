@@ -20,28 +20,36 @@ strong {
     font-size: 16pt;
 }
 
+.frontend {
+    line-height: 2.6;
+}
 .harvestfoto {
     float: left;
     padding-right: 20px;
     width: 200px;
     height: 250px;
-
+    border-radius: 50%;
 }
 
 .winenerd {
-    padding-top: 1in;
-    padding-bottom: .5in;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    line-height: 2.6;
 }
 
-.Pitties {
+.Pittiesfoto {
     height: 300px;
     width: 250px;
     float: left;
+    padding-right: 30px;
+    border-radius: 50%;
 }
 
 .pups {
-    text-align: center;
-
+    line-height: 2.6;
+    margin-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .container {
@@ -52,12 +60,19 @@ footer {
     display: flex;
     justify-content: flex-end;
     justify-content: center;
-    margin-top: 400px;
+}
 
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 a {
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(67, 70, 69)
 }
